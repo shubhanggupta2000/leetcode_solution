@@ -1,0 +1,25 @@
+class Solution {
+public:
+    vector<string> validStrings(int n) {
+        if (n == 1) {
+            return {"0", "1"}; // Base case: two valid strings for n = 1
+        }
+
+        vector<string> prev = validStrings(n - 1); // Recursively generate valid strings for n-1
+        vector<string> result;
+
+        // Generate strings ending in 0 from previous strings ending in 1
+        for (const string& str : prev) {
+            if (str.back() == '1') {
+                result.push_back(str + '0');
+            }
+        }
+
+        // Generate strings ending in 1 (always valid)
+        for (const string& str : prev) {
+            result.push_back(str + '1');
+        }
+
+        return result;
+    }
+};
