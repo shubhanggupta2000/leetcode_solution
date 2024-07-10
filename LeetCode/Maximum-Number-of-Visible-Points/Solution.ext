@@ -1,0 +1,3 @@
+Input: points = [[2,1],[2,2],[3,3]], angle = 90, location = [1,1]
+Output: 3
+Explanation: The shaded region represents your field of view. All points can be made visible in your field of view, including [3,3] even though [2,2] is in front and in the same line of sight.
