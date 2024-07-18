@@ -1,0 +1,9 @@
++------------------+------+
+| Column Name      | Type | 
++------------------+------+
+| transaction_id   | int  |
+| amount           | int  |
+| transaction_date | date |
++------------------+------+
+The transactions_id column uniquely identifies each row in this table.
+Each row of this table contains the transaction id, amount and transaction date.
