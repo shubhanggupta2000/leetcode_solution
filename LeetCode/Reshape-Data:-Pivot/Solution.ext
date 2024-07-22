@@ -1,0 +1,8 @@
+DataFrame weather
++-------------+--------+
+| Column Name | Type   |
++-------------+--------+
+| city        | object |
+| month       | object |
+| temperature | int    |
++-------------+--------+
