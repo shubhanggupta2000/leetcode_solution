@@ -1,0 +1,24 @@
+class Solution {
+public:
+    bool canAliceWin(vector<int>& nums) {
+        int singleDigitSum = 0;
+        int doubleDigitSum = 0;
+        int totalSum = 0;
+
+        for (int num : nums) {
+            totalSum += num;
+            if (num < 10) {
+                singleDigitSum += num;
+            } else {
+                doubleDigitSum += num;
+            }
+        }
+
+        // Calculate Bob's sums if Alice takes either all single-digit or all double-digit numbers
+        int bobSingleDigitSum = totalSum - singleDigitSum;
+        int bobDoubleDigitSum = totalSum - doubleDigitSum;
+
+        // Alice wins if her sum is greater than Bob's sum
+        return (singleDigitSum > bobSingleDigitSum) || (doubleDigitSum > bobDoubleDigitSum);
+    }
+};
