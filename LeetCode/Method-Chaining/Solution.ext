@@ -1,0 +1,9 @@
+DataFrame animals
++-------------+--------+
+| Column Name | Type   |
++-------------+--------+
+| name        | object |
+| species     | object |
+| age         | int    |
+| weight      | int    |
++-------------+--------+
