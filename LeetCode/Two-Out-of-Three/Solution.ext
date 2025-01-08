@@ -1,0 +1,5 @@
+Input: nums1 = [1,1,3,2], nums2 = [2,3], nums3 = [3]
+Output: [3,2]
+Explanation: The values that are present in at least two arrays are:
+- 3, in all three arrays.
+- 2, in nums1 and nums2.
