@@ -1,0 +1,9 @@
+Input: words = ["one.two.three","four.five","six"], separator = "."
+Output: ["one","two","three","four","five","six"]
+Explanation: In this example we split as follows:
+
+"one.two.three" splits into "one", "two", "three"
+"four.five" splits into "four", "five"
+"six" splits into "six" 
+
+Hence, the resulting array is ["one","two","three","four","five","six"].
