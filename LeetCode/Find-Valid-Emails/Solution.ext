@@ -1,0 +1,8 @@
++-----------------+---------+
+| Column Name     | Type    |
++-----------------+---------+
+| user_id         | int     |
+| email           | varchar |
++-----------------+---------+
+(user_id) is the unique key for this table.
+Each row contains a user's unique ID and email address.
