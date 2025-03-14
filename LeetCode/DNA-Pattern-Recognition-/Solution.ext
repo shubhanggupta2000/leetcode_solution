@@ -1,0 +1,9 @@
++----------------+---------+
+| Column Name    | Type    | 
++----------------+---------+
+| sample_id      | int     |
+| dna_sequence   | varchar |
+| species        | varchar |
++----------------+---------+
+sample_id is the unique key for this table.
+Each row contains a DNA sequence represented as a string of characters (A, T, G, C) and the species it was collected from.
