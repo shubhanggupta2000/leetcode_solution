@@ -1,0 +1,1 @@
+return [ i % 10 == nums[i] for i in range(len(nums))].index(True) if True in [ i % 10 == nums[i] for i in range(len(nums))] else -1
